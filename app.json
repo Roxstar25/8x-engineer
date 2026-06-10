@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "AstraAI",
+    "slug": "astra-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "astraai",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A1A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.astraai.app"
+    },
+    "android": {
+      "package": "com.astraai.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0A0A1A"
+      },
+      "androidStatusBar": {
+        "barStyle": "light-content",
+        "backgroundColor": "#0A0A1A",
+        "translucent": true
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A0A1A",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "router": {}
+    }
+  }
+}
